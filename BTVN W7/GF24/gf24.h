@@ -4,8 +4,8 @@
 #include <stdint.h>
 // Cau hinh GF2^4
 #define GF24_bit 4
-#define GF24_F
-#define GF24_10
+#define GF24_F 0x0F
+#define GF24_10 0x10
 
 #define GF24_mod
 
