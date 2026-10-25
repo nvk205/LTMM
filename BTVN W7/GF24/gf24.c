@@ -28,7 +28,7 @@ uint8_t mul(uint8_t a, uint8_t b, uint8_t mod){
         
     }
     
-    return result ^ GF24_F;
+    return result & GF24_F;
 }
 
 
