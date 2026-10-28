@@ -1,10 +1,9 @@
-# 📖 Phép Nhân Đa Thức Trong Trường Hữu Hạn GF(2^4)
+# Phép Nhân Đa Thức Trong Trường Hữu Hạn GF(2^4)
 
-Dự án này triển khai thuật toán nhân hai đa thức trong trường Galois $GF(2^4)$. 
 
 ---
 
-## 🧠 Cơ sở lý thuyết
+## Cơ sở lý thuyết
 
 ### 1. Trường hữu hạn $GF(2^4)$ là gì?
 $GF(2^4)$ là một trường hữu hạn chứa $2^4 = 16$ phần tử. Mỗi phần tử trong trường này được biểu diễn dưới dạng một đa thức có hệ số là 0 hoặc 1 (thuộc $GF(2)$) và bậc lớn nhất cho phép là 3.
@@ -24,7 +23,7 @@ $GF(2^4)$ là một trường hữu hạn chứa $2^4 = 16$ phần tử. Mỗi p
 
 ---
 
-## ⚙️ Thuật toán nhân (Shift & XOR)
+## Thuật toán nhân (Shift & XOR)
 
 Để nhân hai phần tử $a$ và $b$, máy tính không nhân chéo như toán học thông thường mà sử dụng thuật toán **Dịch bit (Shift)** và **Cộng (XOR)** cực kỳ tối ưu qua 4 vòng lặp (vì ở đây là $GF(2^4)$):
 
@@ -35,7 +34,7 @@ $GF(2^4)$ là một trường hữu hạn chứa $2^4 = 16$ phần tử. Mỗi p
 
 ---
 
-## 💻 Cấu trúc Code và Các hàm sử dụng
+## Cấu trúc Code và Các hàm sử dụng
 
 
 ### 1. Hàm `mul()` 
